@@ -1,0 +1,150 @@
+body {
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 50% 50px; 
+  background-repeat: no-repeat;
+  background-color: #CACACA;
+  padding-top: 50px;
+}
+
+
+.navbar-inverse {
+  background: url("D:/WebDev/SOA/img/cheetahz.jpg");
+  background-repeat: repeat;
+  line-height: 50px;
+  border-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: black;
+  box-shadow: -5px 30px 40px rgba(0,0,0,.5);
+}
+
+
+
+body>h1>img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 75%;
+  height: auto;
+}
+
+
+.navbar-inverse .navbar-nav>li>a {
+  color: #fff;
+  font-size: 25px;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-weight: bold;
+  padding:  .7em .7em;
+  text-transform: uppercase;
+  display: inline;
+  text-shadow: 2px 2px 2px #470606;
+}
+
+.box:hover {
+  color: #000000;
+  background-color: #470606;
+}
+
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+}
+
+.video-container iframe, .video-container object, .video-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#pagewrap {
+  width: 75%;
+  max-width: 1150px;
+  padding: 10px;
+  margin: 0 auto;
+  margin-top: 5%;
+  background-color: rgba(255,255,255,0.7);
+  margin-bottom: 18px;
+}
+
+#center {
+  text-align: center;
+  margin-bottom: 10%;
+}
+
+
+
+#monthlypic img {
+  position: relative;
+  width: 20%;
+  max-width: 365px;
+  margin-top: 0px;
+  padding-top: 0px;
+  text-align: center;
+}
+
+.transbox > article {
+  background-color: rgba(30,30,30,0.9);
+  filter:alpha(opacity=90); /* For IE8 and earlier */
+  -webkit-box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.75);
+  box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.75);
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  color: rgba(255,255,255,1.0);
+  text-shadow: 2px 2px 2px #000000;
+  padding: 2em;
+  position: relative;
+  text-align: left;
+  max-width: 100%;
+  margin: auto;
+}
+
+
+#title {
+  color: #b9673a;
+  margin-bottom: 1em;
+}
+
+
+#body {
+  font-size: 1.5em;
+}
+
+#about_text {
+  font-size: 1.5vw;
+  height: 30%;
+}
+
+#music_article {
+  height: 50%;
+  position: relative;
+  display: block;
+  text-align: center;
+}
+
+
+#merch_article {
+  position: relative;
+  display: block;
+  text-align: center;
+}
+
+#shirts {
+  width: 60%;
+  max-width: 700px;
+}
+
+#email {
+  font-size: 1vw;
+  margin-top: 100px;
+  margin-left: 80%;
+}
+
+p {
+  opacity: 1.0;
+}

@@ -1,0 +1,14 @@
+body {
+  background-image: "img/IMG_20140424_220307.jpg";
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: top center;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 12pt;
+  color: #eee;
+  line-height: 1.5em;
+  -webkit-font-smoothing: antialiased;
+}
+body {
+  margin: 0;
+}
