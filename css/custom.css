@@ -9,7 +9,7 @@ body {
 
 
 .navbar-inverse {
-  background: url("./img/cheetahz.jpg");
+  background: url("../img/cheetahz.jpg");
   background-repeat: repeat;
   line-height: 50px;
   border-style: solid;
